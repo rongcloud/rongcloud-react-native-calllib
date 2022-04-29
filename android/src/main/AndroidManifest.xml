@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.rongcloud.rn.call">
+    <application>
+      <meta-data
+        android:name="rc.callreactnative"
+        android:value="cn.rongcloud.rn.call.Version" />
+    </application>
+</manifest>
