@@ -14,7 +14,7 @@ import {
   PermissionsAndroid
 } from 'react-native'
 import { Picker } from '@react-native-picker/picker'
-import { init, disconnect, connect, setServerInfo } from '@rongcloud/react-native-imlib'
+import { RCIMIWEngine } from '@rongcloud/react-native-im-wrapper';
 import sha1 from 'crypto-js/sha1'
 import storage from './storage'
 import config from './config'
@@ -49,6 +49,8 @@ const requestPermission = async () => {
     console.warn(err)
   }
 }
+
+export let engine;
 
 class Home extends Component {
   constructor (props) {
@@ -98,28 +100,36 @@ class Home extends Component {
   }
 
   async handleConnect () {
-    this.dismissKeyboard()
+    this.dismissKeyboard();
 
     // 设置navi
     if (this.state.naviServer) {
-      console.log('[demo]' + this.state.naviServer)
-      setServerInfo(this.state.naviServer, '')
+      console.log('[demo]' + this.state.naviServer);
     }
 
+    // 设置File
+    let file = '';
+
     // 初始化IM
-    init(this.state.appKey)
+    const options = {
+      naviServer: this.state.naviServer,
+      fileServer: file,
+    };
+    engine = RCIMIWEngine.create(this.state.appKey, options);
 
-    this.setLoading(true)
+    this.setLoading(true);
 
-    disconnect()
+    engine?.disconnect(true);
 
-    try {
-      const token = await this.requestToken()
-      connect(
-        token,
-        (userId) => {
-          console.log(`IM连接成功 userId -> ${userId}`)
-
+    const token = await this.requestToken()
+    // 设置连接回调
+    engine?.setOnConnectedListener((code, userId) => {
+      this.setLoading(false);
+      if (code === 0) {
+        console.log('IM 连接成功 userId:' + userId);
+        if (userId.length === 0) {
+          console.log('IM Connect Error: ' + userId);
+        } else {
           // 边接成功输入的信息存储到本地
           storage.save({
             key: 'connectionRecord',
@@ -136,19 +146,22 @@ class Home extends Component {
             // 如果不指定过期时间，则会使用defaultExpires参数
             // 如果设为null，则永不过期
             expires: null
-          })
-          this.gotoJoinRoom(userId)
-        },
-        (code) => {
-          console.log(`连接失败  code -> ${code}`)
-        },
-        () => { console.log('token incorrect')}
-      )
-    } catch (e) {
-      alert(e.toString())
-    } finally {
-      this.setLoading(false)
-    }
+          });
+          this.gotoJoinRoom(userId);
+        }
+      } else {
+        console.log('IM 连接失败,code: ' + code);
+      }
+    });
+
+    // 连接融云 IM 服务器
+    engine?.connect(token, 30).then((code) => {
+      if (code === 0) {
+        console.log('connect 接口调用成功');
+      } else {
+        console.log('connect 接口调用失败', code);
+      }
+    });
   }
 
   /**

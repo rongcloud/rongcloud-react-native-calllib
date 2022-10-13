@@ -13,7 +13,6 @@ import {
   Switch
 } from 'react-native'
 
-import { disconnect } from '@rongcloud/react-native-imlib'
 import {
   init,
   setEngineConfig,
@@ -25,6 +24,7 @@ import {
   removeCallReceivedListener
 } from '@rongcloud/react-native-calllib'
 import { MediaType } from './defines'
+import { engine } from './home.js';
 
 class UserCard extends Component {
   constructor (props) {
@@ -76,7 +76,7 @@ class JoinRoom extends Component {
    * 点左上角回退按钮
    */
   async handleGoBack () {
-    disconnect()
+    engine?.disconnect(true);
     this.props.navigation.goBack()
   }
 
@@ -158,9 +158,16 @@ class JoinRoom extends Component {
 
     var userIds = this.state.userIds
     userIds.splice(idx, 1)
-    this.setState({
-      userIds
-    })
+    if (userIds?.length <= 1) {
+      this.setState({
+        userIds,
+        groupId: ''
+      })
+    } else {
+      this.setState({
+        userIds
+      })
+    }
   }
 
   componentDidMount () {

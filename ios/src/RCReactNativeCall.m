@@ -41,7 +41,7 @@ RCT_EXTERN void RCTRegisterModule(Class);
 {
   RCTRegisterModule(self);
   // 当前版本不支持，升级版本后放开此代码即可。
-  // [RCUtilities setModuleName:@"callreactnative" version:[self getVersion]];
+  [RCUtilities setModuleName:@"callreactnative" version:[self getVersion]];
 }
 
 #pragma mark - RN API...

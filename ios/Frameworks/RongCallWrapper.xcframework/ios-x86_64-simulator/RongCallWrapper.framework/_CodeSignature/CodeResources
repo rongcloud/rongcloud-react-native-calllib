@@ -6,51 +6,51 @@
 	<dict>
 		<key>Frameworks/RongCallLib.framework/Info.plist</key>
 		<data>
-		VIreW+xKt3yrMmxslbGu+HxsTKo=
+		ReksWGOG1uh4jqHHiZmPIJoQtoQ=
 		</data>
 		<key>Frameworks/RongCallLib.framework/RongCallLib</key>
 		<data>
-		VL4C5A5cdnKolJWXshS2sGiAPH4=
+		BWFK8X4Q0LttMFV2ac70hCGiKO4=
 		</data>
 		<key>Frameworks/RongCallLib.framework/_CodeSignature/CodeResources</key>
 		<data>
-		uDGl1d28J06QdJtGUVAQ1HIMDY8=
+		m0bENCBhEiaFrTidDdOZQMhlPAE=
 		</data>
 		<key>Frameworks/RongFaceBeautifier.framework/Info.plist</key>
 		<data>
-		TaLvuP7aU29ozcF2XN45tLxMRag=
+		kB9THaCe3JFwZOGEnk9RUR6+Gh0=
 		</data>
 		<key>Frameworks/RongFaceBeautifier.framework/RongFaceBeautifier</key>
 		<data>
-		5WbBVRaJk7lbeuvGLfIMgPLLSzc=
+		APNhoZCl1eG/RPXr5jOcrsLClfs=
 		</data>
 		<key>Frameworks/RongFaceBeautifier.framework/_CodeSignature/CodeResources</key>
 		<data>
-		X1UHVrVSFCbysYFuenmQdlCY5qA=
+		ckRCVb2vB/yZpG+pgBFhYA+5SWE=
 		</data>
 		<key>Frameworks/RongIMLibCore.framework/Info.plist</key>
 		<data>
-		k1Lfu4N4Kobd9EYGveFfGshfp0M=
+		LDdWITGM8E6PCmZF0H8fngC1CIY=
 		</data>
 		<key>Frameworks/RongIMLibCore.framework/RongIMLibCore</key>
 		<data>
-		wDsN8Kca5ZoLIGaeejh1mxdEpq8=
+		LUAZCTWDeLHOtyewdCM1ie5ykZE=
 		</data>
 		<key>Frameworks/RongIMLibCore.framework/_CodeSignature/CodeResources</key>
 		<data>
-		IKkZdd/i7YMG3aV9uVk0UTZVDpw=
+		T/px/KxIXFprE/TMO+GOJkYSclc=
 		</data>
 		<key>Frameworks/RongRTCLib.framework/Info.plist</key>
 		<data>
-		h88kPHweeIVMap/R3K9JCr6164o=
+		HKQTmNA83ETaD6c+GdVzKUGEaxc=
 		</data>
 		<key>Frameworks/RongRTCLib.framework/RongRTCLib</key>
 		<data>
-		3eDg3BB3NDmeB8Bt3MKJS/dtgSU=
+		ozsFDZO8UXT96zo7U6ESM5tOhW4=
 		</data>
 		<key>Frameworks/RongRTCLib.framework/_CodeSignature/CodeResources</key>
 		<data>
-		CYZhtLmVqCrsg5Rvz4jH/XtJYhw=
+		X/gX6AsRkMDHa+J4PGu0THhCH28=
 		</data>
 		<key>Headers/RCCallIWAndroidPushConfig.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lbUnoqYH4CIaaeXGGx1G26Ih5OI=
+		R3R0gzjp5LhOLWbjXiCvhR/73Bk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -123,132 +123,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VIreW+xKt3yrMmxslbGu+HxsTKo=
+			ReksWGOG1uh4jqHHiZmPIJoQtoQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			wUZfJtXPjYX6fAUQuWdny4erpLwPPBx/Oo2ruuhCVwE=
+			WkdSLpBWKl6ePNa3m/3/wMMAEqtSnRYrQO5JtOjBtko=
 			</data>
 		</dict>
 		<key>Frameworks/RongCallLib.framework/RongCallLib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VL4C5A5cdnKolJWXshS2sGiAPH4=
+			BWFK8X4Q0LttMFV2ac70hCGiKO4=
 			</data>
 			<key>hash2</key>
 			<data>
-			o506owNdUtmEF+yWYwz09mfziFrbDv0AIl+dI3DrTgg=
+			SeW1bDpaLqwG0rWb6yNy5kyl3ZTY7ehF22adk+60ui4=
 			</data>
 		</dict>
 		<key>Frameworks/RongCallLib.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uDGl1d28J06QdJtGUVAQ1HIMDY8=
+			m0bENCBhEiaFrTidDdOZQMhlPAE=
 			</data>
 			<key>hash2</key>
 			<data>
-			XU3uS8mEPGdmWmh9SKj079CC9ZpeH+pf9xZEfEQuqAg=
+			ZOj82KHuPCDLqrwoDKgP7TZj8yY5st3UKxac2ADhyUQ=
 			</data>
 		</dict>
 		<key>Frameworks/RongFaceBeautifier.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TaLvuP7aU29ozcF2XN45tLxMRag=
+			kB9THaCe3JFwZOGEnk9RUR6+Gh0=
 			</data>
 			<key>hash2</key>
 			<data>
-			umyRiniw6EWfaSzCADs2uEOung5Q2DSnNLWrbFU0fpU=
+			yJ/xoG31pCc6/sedQdb8WA0KEQCom85U5qV2QJE4w+s=
 			</data>
 		</dict>
 		<key>Frameworks/RongFaceBeautifier.framework/RongFaceBeautifier</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5WbBVRaJk7lbeuvGLfIMgPLLSzc=
+			APNhoZCl1eG/RPXr5jOcrsLClfs=
 			</data>
 			<key>hash2</key>
 			<data>
-			09NWfxFuItaNl038303WRBVFd/M9kqRtE18OPQZbegc=
+			pYkbOv/YSl4DA+8y6cyz6fYFNSb+5elIx8vXW3RAyI0=
 			</data>
 		</dict>
 		<key>Frameworks/RongFaceBeautifier.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X1UHVrVSFCbysYFuenmQdlCY5qA=
+			ckRCVb2vB/yZpG+pgBFhYA+5SWE=
 			</data>
 			<key>hash2</key>
 			<data>
-			u2+vezJ+eqkCYQt8SZK6yR7OSqa9kRNh9uPpri1C8fI=
+			1s5esNATPUg+aUs3u86nmMpEL3Kqy7yI4oKGNYSqH5w=
 			</data>
 		</dict>
 		<key>Frameworks/RongIMLibCore.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k1Lfu4N4Kobd9EYGveFfGshfp0M=
+			LDdWITGM8E6PCmZF0H8fngC1CIY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ceQ55yA1Tvi8ulcCuLsnIyNOOLJfpBQvjAyI6W+6KCU=
+			gcKciC2HAzNAFR70TPpvWARGtPkZT7p3DMVyxfR5pFY=
 			</data>
 		</dict>
 		<key>Frameworks/RongIMLibCore.framework/RongIMLibCore</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wDsN8Kca5ZoLIGaeejh1mxdEpq8=
+			LUAZCTWDeLHOtyewdCM1ie5ykZE=
 			</data>
 			<key>hash2</key>
 			<data>
-			+svGeAzyYBfRL+Nw46JZ0j42fJ18nPogL/9+NytdCPA=
+			9WjuNrK5JLMjzxzJia0a4jKm9+NT5oiVi0WsOoccNBM=
 			</data>
 		</dict>
 		<key>Frameworks/RongIMLibCore.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IKkZdd/i7YMG3aV9uVk0UTZVDpw=
+			T/px/KxIXFprE/TMO+GOJkYSclc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ok+oETDdzSuY+LC5zOfL9najKtpiprxQUgKxyIlIemo=
+			b/BLN5FDaOT0/Hu7HMVy6Klo2gBGaQd7vyeQ/E1RjHY=
 			</data>
 		</dict>
 		<key>Frameworks/RongRTCLib.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			h88kPHweeIVMap/R3K9JCr6164o=
+			HKQTmNA83ETaD6c+GdVzKUGEaxc=
 			</data>
 			<key>hash2</key>
 			<data>
-			G63uEE3no3XUPSyN0x+Wdt2de9qkhIxOUGDLMg8ENeM=
+			WkupufpnYnUrq8KA2AoRuFQGyqDkJcMijnECHE7oqFc=
 			</data>
 		</dict>
 		<key>Frameworks/RongRTCLib.framework/RongRTCLib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3eDg3BB3NDmeB8Bt3MKJS/dtgSU=
+			ozsFDZO8UXT96zo7U6ESM5tOhW4=
 			</data>
 			<key>hash2</key>
 			<data>
-			UxzBlExl0/56aiCDu/tlpq/pGiMrdmrCqO+dQjER/NY=
+			MK82zzlHWhQRp7e0thtg7PiVRC9Vt9YOxlBbEpbMUIY=
 			</data>
 		</dict>
 		<key>Frameworks/RongRTCLib.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CYZhtLmVqCrsg5Rvz4jH/XtJYhw=
+			X/gX6AsRkMDHa+J4PGu0THhCH28=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qa4P7k02lY9PXHU8TEXD361HmDexi1IxGp62lhlyywQ=
+			46L0999G5OfF1nvfFZjU4LBLN6s3/+yAmjSZfRVuzMc=
 			</data>
 		</dict>
 		<key>Headers/RCCallIWAndroidPushConfig.h</key>

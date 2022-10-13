@@ -376,6 +376,9 @@ class Room extends Component {
   handleChangeMediaType () {
     console.log('changeMediaType')
 
+    // 关闭美颜
+    this.setState({ isShowBeauty: false })
+
     // 调用 RN sdk 的方法
     changeMediaType(MediaType.audio)
 
@@ -780,12 +783,14 @@ class Room extends Component {
             </View>}
             {this.state.mediaType === MediaType.video && (
               <View>
-                <ItemButton
-                  style={{ marginBottom: 25 }}
-                  title="音频通话"
-                  image={require('./images/audio.png')}
-                  onclick={this.handleChangeMediaType.bind(this)}
-                />
+                {this.isCallConnected &&
+                  <ItemButton
+                    style={{ marginBottom: 25 }}
+                    title="音频通话"
+                    image={require('./images/audio.png')}
+                    onclick={this.handleChangeMediaType.bind(this)}
+                  />
+                }
                 <ItemButton
                   style={{ marginBottom: 25 }}
                   title="切换像机"
@@ -921,6 +926,7 @@ class Room extends Component {
                 />}
               </View>}
 
+              {this.state.isOpenedBeauty && 
               <View style={styles.beautyButtons}>
                 {this.state.beautyList.map((item) => {
                   return (<View style={item.selected ? styles.beautyBtnSelected : styles.beautyBtn}>
@@ -930,6 +936,7 @@ class Room extends Component {
                   </View>)
                 })}
               </View>
+              }
 
             </View>}
 

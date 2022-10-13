@@ -284,40 +284,36 @@ PODS:
   - RNScreens (3.10.1):
     - React-Core
     - React-RCTImage
-  - rongcloud-react-native-calllib (5.1.13-alpha.0):
+  - rongcloud-react-native-calllib (5.2.5):
     - React
     - React-Core
-    - RongCloudIM/IMLib (= 5.1.3.5)
-    - RongCloudRTC/RongCallLib (= 5.1.15)
-    - RongCloudRTC/RongFaceBeautifier (= 5.1.15)
-  - rongcloud-react-native-imlib (5.1.3-alpha.3):
-    - React
+    - RongCloudIM/IMLib (= 5.2.5)
+    - RongCloudRTC/RongCallLib (= 5.2.5)
+    - RongCloudRTC/RongFaceBeautifier (= 5.2.5)
+  - rongcloud-react-native-im-wrapper (5.2.5):
     - React-Core
-    - RongCloudIM/IMLib (= 5.1.3.5)
-  - RongCloudIM/ChatRoom (5.1.3.5):
+    - RongCloudIM/IMLib (= 5.2.5)
+  - RongCloudIM/ChatRoom (5.2.5):
     - RongCloudIM/IMLibCore
-  - RongCloudIM/CustomerService (5.1.3.5):
+  - RongCloudIM/CustomerService (5.2.5):
     - RongCloudIM/IMLibCore
-  - RongCloudIM/Discussion (5.1.3.5):
+  - RongCloudIM/Discussion (5.2.5):
     - RongCloudIM/IMLibCore
-  - RongCloudIM/IMLib (5.1.3.5):
+  - RongCloudIM/IMLib (5.2.5):
     - RongCloudIM/ChatRoom
     - RongCloudIM/CustomerService
     - RongCloudIM/Discussion
     - RongCloudIM/IMLibCore
-    - RongCloudIM/Location
     - RongCloudIM/PublicService
-  - RongCloudIM/IMLibCore (5.1.3.5)
-  - RongCloudIM/Location (5.1.3.5):
+  - RongCloudIM/IMLibCore (5.2.5)
+  - RongCloudIM/PublicService (5.2.5):
     - RongCloudIM/IMLibCore
-  - RongCloudIM/PublicService (5.1.3.5):
-    - RongCloudIM/IMLibCore
-  - RongCloudRTC/RongCallLib (5.1.15):
+  - RongCloudRTC/RongCallLib (5.2.5):
     - RongCloudRTC/RongRTCLib
-  - RongCloudRTC/RongFaceBeautifier (5.1.15):
+  - RongCloudRTC/RongFaceBeautifier (5.2.5):
     - RongCloudRTC/RongRTCLib
-  - RongCloudRTC/RongRTCLib (5.1.15):
-    - RongCloudIM/IMLibCore (>= 5.1.3)
+  - RongCloudRTC/RongRTCLib (5.2.5):
+    - RongCloudIM/IMLibCore (>= 5.2.5)
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -359,7 +355,7 @@ DEPENDENCIES:
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - rongcloud-react-native-calllib (from `../../ios`)
-  - "rongcloud-react-native-imlib (from `../node_modules/@rongcloud/react-native-imlib`)"
+  - "rongcloud-react-native-im-wrapper (from `../node_modules/@rongcloud/react-native-im-wrapper`)"
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -441,8 +437,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-screens"
   rongcloud-react-native-calllib:
     :path: "../../ios"
-  rongcloud-react-native-imlib:
-    :path: "../node_modules/@rongcloud/react-native-imlib"
+  rongcloud-react-native-im-wrapper:
+    :path: "../node_modules/@rongcloud/react-native-im-wrapper"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -450,7 +446,7 @@ SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   DoubleConversion: cf9b38bf0b2d048436d9a82ad2abe1404f11e7de
   FBLazyVector: e686045572151edef46010a6f819ade377dfeb4b
-  FBReactNativeSpec: a13a2beb5fc052c30a01edf6f755a98b3c02455c
+  FBReactNativeSpec: 74a80b3f6d3ac4750169904b1894ae01353e4acc
   glog: 73c2498ac6884b13ede40eda8228cb1eee9d9d62
   RCT-Folly: ec7a233ccc97cc556cf7237f0db1ff65b986f27c
   RCTRequired: 6d3e854f0e7260a648badd0d44fc364bc9da9728
@@ -483,12 +479,12 @@ SPEC CHECKSUMS:
   RNCPicker: cb57c823d5ce8d2d0b5dfb45ad97b737260dc59e
   RNGestureHandler: a479ebd5ed4221a810967000735517df0d2db211
   RNScreens: 522705f2e5c9d27efb17f24aceb2bf8335bc7b8e
-  rongcloud-react-native-calllib: d5b4c5f592a6c64d1eaa2abd3d911b08866dfcfe
-  rongcloud-react-native-imlib: 7cd34e603a09dfb57d9a1d38c4f72984acdb439c
-  RongCloudIM: 3530dd2dca778ade2918c030c30384cb8cce348a
-  RongCloudRTC: d2e7802ed87e100dd7d5f898e65a67313d9b4738
+  rongcloud-react-native-calllib: c9e69002dfcf0ee349303563cacae9aa491aa049
+  rongcloud-react-native-im-wrapper: 405af046cbced6265c7bfbc7013b90406686ccbc
+  RongCloudIM: 4c3befbe6e9dd813a87c499c81fb2eac54c354b3
+  RongCloudRTC: 4ddffa66488977243b32e92923f03af9423b4f29
   Yoga: 575c581c63e0d35c9a83f4b46d01d63abc1100ac
 
 PODFILE CHECKSUM: c5fcf07bb571e0647f1fd8322670e03647017441
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3
